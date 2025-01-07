@@ -1,0 +1,34 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Admin!"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnManageEmployees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Employees" />
+
+    <Button
+        android:id="@+id/btnLeaveRequests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leave Requests" />
+
+    <Button
+        android:id="@+id/btnNotifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notifications" />
+
+</LinearLayout>
